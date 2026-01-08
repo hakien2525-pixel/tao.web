@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Profile Landing</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- CSS RIÊNG -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="hero">
+      <div>
+        <div class="badge">Hà Kiên Profile</div>
+        <h1>Xin chào, tôi là <span>Hà Kiên</span></h1>
+        <p class="subtitle">
+          Một profile cá nhân phong cách AI – tối giản, hiện đại và tập trung vào giá trị, kỹ năng và tầm nhìn của tôi.
+        </p>
+        <div class="actions">
+          <a href="#about" class="btn primary">Giới thiệu</a>
+          <a href="#contact" class="btn ghost">Liên hệ</a>
+        </div>
+      </div>
+
+      <div class="avatar-card">
+        <div class="avatar">
+          <img src="kien.jpg" alt="Ảnh cá nhân Hà Kiên">
+        </div>
+        <h3>Tên của tôi là Kiên hay còn gọi với biệt danh khác là kine</h3>
+        <p>AI / Developer / Creative Thinker</p>
+      </div>
+    </div>
+
+    <section id="about">
+      <h2 class="section-title">Tôi làm gì?</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>🤖 AI & Công nghệ</h4>
+          <p>Xây dựng và ứng dụng AI để giải quyết vấn đề thực tế.</p>
+        </div>
+        <div class="card">
+          <h4>🎨 Sáng tạo</h4>
+          <p>Kết hợp thiết kế, tư duy và công nghệ để tạo trải nghiệm đẹp.</p>
+        </div>
+        <div class="card">
+          <h4>🚀 Phát triển</h4>
+          <p>Luôn học hỏi, tối ưu bản thân và sản phẩm mỗi ngày.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Dự án</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="kin.jpg" alt="Project 1">
+                    </div>
+                    <h3>Hồ sơ Cá nhân</h3>
+                    <p>Review chút về các cuộc thi mình tham gia.</p>
+                    <a href="#" class="btn btn-small">Xem Dự án</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="ken.jpg" alt="Project 2">
+                    </div>
+                    <h3>Thông tin thêm về bản thân </h3>
+                    <p>Ngoài các sân chơi học tập, mình còn tham gia các hoạt động xã hội.Phục vụ cộng đồng.</p>
+                    <a href="#" class="btn btn-small">Xem Dự án</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="kine.jpg" alt="Project 3">
+                    </div>
+                    <h3>Ứng dụng Bão Lũ</h3>
+                    <p>Một ứng dụng bão lũ kết hợp sử dụng API và các tính năng báo động khác để hỗ trợ bà con phòng chống bão lũ.</p>
+                    <a href="#" class="btn btn-small">Xem Dự án</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Kết nối</h2>
+      <div class="contact-grid">
+        <div class="contact-cards">
+          <div class="card contact-card">
+            <h4>Email</h4>
+            <p><a href="mailto:hakien2525@gmail.com">hakien2525@gmail.com</a></p>
+          </div>
+
+          <div class="card contact-card">
+            <h4>Facebook</h4>
+            <p><a href="#">Kiên Hà</a></p>
+          </div>
+
+          <div class="card contact-card">
+            <h4>GitHub</h4>
+            <p><a href="https://github.com/kienha" target="_blank" rel="noopener">github.com/kienha</a></p>
+          </div>
+        </div>
+
+        <form class="contact-form" action="mailto:hakien2525@gmail.com" method="get" enctype="text/plain">
+          <div class="form-row">
+            <label class="form-field">
+              Họ & Tên
+              <input type="text" name="name" placeholder="Tên của bạn" required>
+            </label>
+
+            <label class="form-field">
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </label>
+          </div>
+
+          <label class="form-field">
+            Chủ đề
+            <input type="text" name="subject" placeholder="Vấn đề hoặc tiêu đề" required>
+          </label>
+
+          <label class="form-field">
+            Tin nhắn
+            <textarea name="message" rows="5" placeholder="Xin chào Kiên, ..." required></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Gửi tin nhắn</button>
+            <button type="reset" class="btn ghost">Làm mới</button>
+          </div>
+          <p class="form-note">Hoặc gửi trực tiếp tới <a href="mailto:hakien2525@gmail.com">hakien2525@gmail.com</a></p>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 · Kiên Hà Profile · Designer with me
+    </footer>
+  </div>
+</body>
+</html>
